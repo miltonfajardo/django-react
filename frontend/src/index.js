@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// ...
+// add this import in frontend/src/index.js
+// add it before index.css import
+import "bootstrap/dist/css/bootstrap.css";
+// ...
+
 
 ReactDOM.render(
   <React.StrictMode>
