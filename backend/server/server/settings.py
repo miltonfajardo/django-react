@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     # 
     'apps.accounts.apps.AccountsConfig', # add new application
     #api.apps.ApiConfig
+    'apps.notes.apps.NotesConfig'
 ]
 
 #configure DRF
